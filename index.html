@@ -1,67 +1,443 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salt and pepper</title>
-
-    <!-- custom stylesheet -->
+    <title>Salt n Paper</title>
     <link rel="stylesheet" href="./styles/utility.css">
     <link rel="stylesheet" href="./styles/style.css">
-
-
-    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
+<body>
+    
 
-<body class="bg-dark text-white">
-    <!-- navbar started -->
-    <header class="d-flex justify-around item-center mt2 flex-wrap">
-        <div>
-            <img class="logo" src="./assets/logo.webp" alt="logo">
-        </div>
-        <div>
-            <nav class="d-flex gap-5 item-center flex-wrap">
-                <a class="nav-text" href="#">Home</a>
-                <a class="nav-text" href="#">About Us</a>
-                <a class="nav-text" href="#">Publications</a>
-                <a class="nav-text" href="#">Feedback</a>
-                <button class="franchise">Get a franchise</button>
-                <button class="order-btn">Order Online <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
-            </nav>
-        </div>
-    </header>
-    <!-- navbar ended -->
-
-    <!-- section 2 started -->
-     <img class="container-img" src="./assets/container.webp" alt="container">
-    <!-- section 2 ended -->
+         <!-- ===================(navbar started)=================== -->
+        <header class="d-flex justify-around item-center p1 flex-wrap">
+            <div>
+                <img class="logo" src="./assets/logo.webp" alt="logo">
+            </div>
+            <div>
+                <nav class="d-flex gap-5 item-center flex-wrap">
+                    <a class="nav-text" href="#">Home</a>
+                    <a class="nav-text" href="#">About Us</a>
+                    <a class="nav-text" href="#">Publications</a>
+                    <a class="nav-text" href="#">Feedback</a>
+                    <button class="franchise">Get a franchise</button>
+                    <button class="order-btn">Order Online <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </nav>
+            </div>
+        </header>
+        <!-- ===================(navbar ended)=================== -->
 
 
-    <section>
-        <!-- section 1 -->
-        <div class="sec1 p-p" >
-            <h1 class="sec1-p" >Welcome to<span class="italic"> Salt'n Pepper</span> <br> Restaurants! Our Brands </h1>
-            <p> Please click our brands below for further information, reservations or to order online!</p>   
-        </div>
+        <!-- ===================(container started)=================== -->
+        <img class="container" src="./assets/container.webp" alt="">
+        <!-- ===================(container ended)=================== -->
 
-        <!-- section 2 -->
-        <div >
-            <div><img width="222px" src="./assets/secion-1-pic(1).webp" alt=""><br><button>Order Now</button></div>
-            <div><img width="222px" src="./assets/sec1-2.webp" alt=""><br><button>Order Now</button></div>
-            <div><img width="222px" src="./assets/sec1-3.webp" alt=""><br><button>Reserve A Table</button></div>
-        </div>
+
+        <!-- ===================(section(1) started)=================== -->
+        <section class="bg-dark text-white pt6 pbottom-s1">
+            <div class="text-center ">
+                <h2 class="section-1-h2">Welcome to <span class="Saltn_Pepper">Salt'n Pepper</span> <br> Restaurants! Our Brands</h2>
+                <p class="section-1-p">Please click our brands below for further information, reservations or to order online!</p>
+            </div>
+            <div class="d-flex flex-wrap justify-center mt6 ">
+                <div class="section-1_picutre pb "><img class="section-1_pic bg-white" src="./assets/section-1_pic(1).webp" alt=""> <br> <button class="section-1_picutre-btn">Order Now</button></div>
+                <div class="section-1_picutre pb"><img class="section-1_pic bg-white" src="./assets/section-1_pic(2).webp" alt=""> <br> <button class="section-1_picutre-btn">Order Now</button></div>
+                <div class="section-1_picutre pb"><img class="section-1_pic bg-white" src="./assets/section-1_pic(3).webp" alt=""> <br> <button class="section-1_picutre-btn">Order Now</button></div> 
+            </div>
+        </section>
+        <!-- ===================(section(1) ended)=================== -->
+
+            
+        <!-- ===================(section(2) started)=================== --> 
+        <section class="s2-bg-ligth-gray pbottom-s2">
+            <div class="text-center pt6 ">
+                <h2 class="section-1-h2"><span class="Saltn_Pepper">Salt'n Pepper</span><br>Restaurant Franchises</h2>
+                <p class="section-1-p">Each of our franchises are individually managed. For further details, kindly contact them directly.</p>
+            </div>
+
+            <!-- ===================(section-2-row-1 started)=================== -->
+            <div class="d-flex flex-wrap justify-center mt6 gap-5 ">
+                <div class="section-2-SD-inner">
+                    <h1 class="tw">ISLAMABAD</h1>
+                    <h2 class="section-2-h2"><span class="section-2-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-2-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+                    <p class="section-2-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: 051-2604904-6</p>
+                    <button class="section-2-bn">Order Online <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+                <div>
+                    <img class="s2-BR" width="500px" src="./assets/islamabad.webp" alt="">
+                </div>
+            </div>
+            <!-- ===================(section-2-row-1 ended )=================== -->
+
+
+            <!-- ===================(section-2-row-2 started)=================== -->
+            <div class="d-flex flex-wrap justify-center mt6 gap-5 ">
+                <div>
+                    <img class="s2-BR" width="500px" src="./assets/FAISALABAD.webp" alt="">
+                </div>
+
+                <div class="section-2-SD-inner">
+                    <h1 class="tw">FAISALABAD</h1>
+                    <h2 class="section-2-h2"><span class="section-2-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-2-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> 4-Kohinoor City, Faisalabad</p>
+                    <p class="section-2-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: 041-8711404</p>
+                    <button class="section-2-bn">Order Online <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+            </div>
+            <!-- ===================(section-2-row-2 ended)=================== -->
+
+
+            <!-- ===================(section-2-row-3 started)=================== -->
+            <div class="d-flex flex-wrap justify-center mt6 gap-5 ">
+                <div class="section-2-SD-inner">
+                    <h1 class="tw">BAHAWALPUR</h1>
+                    <h2 class="section-2-h2"><span class="section-2-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-2-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> D.C Chowk, opposite Commissioner House, Bahawalpur</p>
+                    <p class="section-2-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: 062-2740271-2</p>
+                    <button class="section-2-bn">Order Online <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+                <div>
+                    <img class="s2-BR" width="500px" src="./assets/BAHAWALPUR.webp" alt="">
+                </div>
+            </div>
+            <!-- ===================(section-2-row-3 ended )=================== -->
+
+        </section>
+            <!-- ===================(section(2) ended)=================== --> 
+
+
+            <!-- ===================(section(3) started)=================== --> 
+        <section class="bg-dark text-white pt6 pbottom-s2">
+            <div class="text-center">
+                <h2 class="section-1-h2"><span class="Saltn_Pepper">Salt'n Pepper</span><br>Express Franchises</h2>
+            </div>
+            
+            <!-- ===================(section-3-row-1 started )=================== -->
+            <div class="d-flex flex-wrap justify-center mt5 gap-5 ">
+                <div class="section-3-SD-inner text-center">
+                    <img class="section-3-img"  src="./assets/S3-R1-img1.webp" alt="S3-R1-img1.webp">
+                    <h1 class="tw">EMPORIUM MALL</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-3-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+                    <p class="section-3-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: 051-2604904-6</p>
+                    <button class="section-3-bn">Get Directions <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+
+                <div class="section-3-SD-inner text-center">
+                    <img class="section-3-img" src="./assets/S3-R1-img2.webp" alt="S3-R1-img2.webp">
+                    <h1 class="tw">GUJRANWALA</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-3-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Sixteenth Avenue Mall</p>
+                    <p class="section-3-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: 0300 6024000</p>
+                    <button class="section-3-bn">Get Directions <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+
+                <div class="section-3-SD-inner text-center">
+                    <img class="section-3-img" src="./assets/S3-R1-img3.webp" alt="S3-R1-img3.webp">
+                    <h1 class="tw">SARGODHA</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-3-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Opposite Sargodha Arts Council Babar Road</p>
+                    <p class="section-3-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: (048) 3725500</p>
+                    <button class="section-3-bn">Get Directions <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+            </div>
+            <!-- ===================(section-3-row-1 ended )=================== -->
+
+
+            <!-- ===================(section-3-row-2 started )=================== -->
+            <div class="d-flex flex-wrap justify-center mt5 gap-5 ">
+                <div class="section-3-SD-inner text-center">
+                    <img class="section-3-img"  src="./assets/S3-R2-img1.webp" alt="S3-R2-img2.webp">
+                    <h1 class="tw">JHELUM</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-3-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+                    <p class="section-3-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: 051-2604904-6</p>
+                    <button class="section-3-bn">Get Directions <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+
+                <div class="section-3-SD-inner text-center">
+                    <img class="section-3-img" src="./assets/S3-R2-img2.webp" alt="S3-R2-img2.webp">
+                    <h1 class="tw">FAISAL TOWN</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-3-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Sixteenth Avenue Mall</p>
+                    <p class="section-3-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: 0300 6024000</p>
+                    <button class="section-3-bn">Get Directions <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+
+                <div class="section-3-SD-inner text-center">
+                    <img class="section-3-img" src="./assets/S3-R2-img3.webp" alt="S3-R2-img3.webp">
+                    <h1 class="tw">DHA</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-3-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Opposite Sargodha Arts Council Babar Road</p>
+                    <p class="section-3-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: (048) 3725500</p>
+                    <button class="section-3-bn">Get Directions <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+            </div>
+            <!-- ===================(section-3-row-2 ended )=================== -->
+            
+
+            <!-- ===================(section-3-row-3 started )=================== -->
+            <div class="d-flex flex-wrap justify-center mt5 gap-5 ">
+                <div class="section-3-SD-inner text-center">
+                    <img class="section-3-img"  src="./assets/S3-R3-img1.webp" alt="S3-R3-img1.webp">
+                    <h1 class="tw">BAHRIA TOWN</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-3-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+                    <p class="section-3-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: 051-2604904-6</p>
+                    <button class="section-3-bn">Get Directions <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+
+                <div class="section-3-SD-inner text-center">
+                    <img class="section-3-img" src="./assets/S3-R3-img2.webp" alt="S3-R3-img2.webp">
+                    <h1 class="tw">GUJAR KHAN</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-3-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Sixteenth Avenue Mall</p>
+                    <p class="section-3-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: 0300 6024000</p>
+                    <button class="section-3-bn">Get Directions <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+
+                <div class="section-3-SD-inner text-center">
+                    <img class="section-3-img" src="./assets/S3-R3-img3.webp" alt="S3-R3-img3.webp">
+                    <h1 class="tw">LAHORE</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-3-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Opposite Sargodha Arts Council Babar Road</p>
+                    <p class="section-3-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: (048) 3725500</p>
+                    <button class="section-3-bn">Get Directions <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+            </div>
+            <!-- ===================(section-3-row-3 ended )=================== -->
+
+
+            <!-- ===================(section-3-row-4 started )=================== -->
+            <div class="d-flex flex-wrap justify-center mt5 gap-5 ">
+
+                <div class="section-3-SD-inner text-center">
+                    <img class="section-3-img" src="./assets/S3-R4-img1.webp" alt="S3-R2-img1.webp">
+                    <h1 class="tw">GUJRAT</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="section-3-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Sixteenth Avenue Mall</p>
+                    <p class="section-3-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: 0300 6024000</p>
+                    <button class="section-3-bn">Get Directions <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                </div>
+            <!-- ===================(section-3-row-4 ended )=================== -->
+
+        </section>
+            <!-- ===================(section(3) ended)=================== --> 
+
+        
+            <!-- ===================(section(4) started)=================== --> 
+        <section class="s2-bg-ligth-gray pbottom-s2">
+
+                <div class="text-center pt6 ">
+                    <h2 class="section-1-h2"><span class="Saltn_Pepper">Salt'n Pepper</span><br>Village Franchise</h2>
+                </div>
+    
+                <div class="d-flex flex-wrap align-start mtop gap-4  ">
+                    <div>
+                        <img class="s2-BR" width="700px" src="./assets/S-4-GUJRANWALA.webp" alt="S-4-GUJRANWALA">
+                    </div>
+    
+                    <div class="section-4-SD-inner">
+                        <h1 class="tw section-3-h1">GUJRANWALA</h1>
+                        <h2 class="section-2-h2"><span class="section-2-span">Salt'n Pepper</span> Village</h2>
+                        <p class="section-2-p"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Adjacent to Rida Marquees /DHA Main Gate, GT Road Gujranwala Cantt</p>
+                        <p class="section-2-p"><span><i class="fa fa-phone" aria-hidden="true"></i></span> Ph: 041-8711404</p>
+                        <button class="section-4-bn">Get Directions <span><i class="fa-solid fa-arrow-right arrow-icon-G"></i></span></button>
+                    </div>
+                </div>
+
+        </section>
+            <!-- ===================(section(4) ended)=================== --> 
+
+
+
+            <!-- ===================(section(5) started)=================== --> 
+        <section class="bg-dark text-white pt6 pbottom-s2">
+            <div class="text-center">
+                <h2 class="section-1-h2"><span class="Saltn_Pepper">Salt'n Pepper</span><br>Express Franchises <span class="section-3-h2">(Opening Soon)</span></h2>
+            </div>
+            
+            <!-- ===================(section-5-row-1 started )=================== -->
+            <div class="d-flex flex-wrap justify-center mt5 gap-5 ">
+                <div class="section-5-SD-inner text-center bg-white text-black">
+                    <img class="section-5-img"  src="./assets/S-5-location_img.webp" alt="S-5-location_img.webp">
+                    <h1 class="tw mb">Opening Soon</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Express<br>Al-Jalil Garden<br>Sadhoke</h2>
+                </div>
+
+                <div class="section-5-SD-inner text-center bg-white text-black">
+                    <img class="section-5-img"  src="./assets/S-5-location_img.webp" alt="S-5-location_img.webp">
+                    <h1 class="tw mb">Opening Soon</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Express<br>Al-Jalil Garden<br>Sheikhupura</h2>
+                </div>
+
+                <div class="section-5-SD-inner text-center bg-white text-black">
+                    <img class="section-5-img"  src="./assets/S-5-location_img.webp" alt="S-5-location_img.webp">
+                    <h1 class="tw mb">Opening Soon</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Express<br>Blue World City<br>Rawalpindi</h2>
+                </div>
+            </div>
+            <!-- ===================(section-5-row-1 ended )=================== -->
+
+            <!-- ===================(section-5-row-2 started )=================== -->
+            <div class="d-flex flex-wrap justify-center mt5 gap-5 ">
+                <div class="section-5-SD-inner text-center bg-white text-black">
+                    <img class="section-5-img"  src="./assets/S-5-location_img.webp" alt="S-5-location_img.webp">
+                    <h1 class="tw mb">Opening Soon</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Express<br>City Housing<br>Gujranwala</h2>
+                </div>
+
+                <div class="section-5-SD-inner text-center bg-white text-black">
+                    <img class="section-5-img"  src="./assets/S-5-location_img.webp" alt="S-5-location_img.webp">
+                    <h1 class="tw mb">Opening Soon</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Express<br>City Housing<br>Sahiwal</h2>
+                </div>
+
+                <div class="section-5-SD-inner text-center bg-white text-black">
+                    <img class="section-5-img"  src="./assets/S-5-location_img.webp" alt="S-5-location_img.webp">
+                    <h1 class="tw mb">Opening Soon</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Express<br>City Housing<br>Sialkot</h2>
+                </div>
+            </div>
+            <!-- ===================(section-5-row-2 ended )=================== -->
+
+            <!-- ===================(section-5-row-5 started )=================== -->
+            <div class="d-flex flex-wrap justify-center mt5 gap-5 ">
+                <div class="section-5-SD-inner text-center bg-white text-black">
+                    <img class="section-5-img"  src="./assets/S-5-location_img.webp" alt="S-5-location_img.webp">
+                    <h1 class="tw mb">Opening Soon</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Express<br>Al-Jalil Garden<br>Sharqpur</h2>
+                </div>
+
+                <div class="section-5-SD-inner text-center bg-white text-black">
+                    <img class="section-5-img"  src="./assets/S-5-location_img.webp" alt="S-5-location_img.webp">
+                    <h1 class="tw mb">Opening Soon</h1>
+                    <h2 class="section-3-h2"><span class="section-3-span">Salt'n Pepper</span> Express<br>Al-Jalil Garden<br>Burewala</h2>
+                </div>
+
+            </div>
+                    <!-- ===================(section-5-row-3 ended )=================== -->
+            
+
+                    <!-- ===================(section-5-row-Social Feed started )=================== -->
+                <div class="text-center social_feed">
+                    <h1>Social Feed</h1>
+                </div>
+                    <!-- ===================(section-5-row-Social Feed ended )=================== -->
+
+
+                    <!-- ===================(section-5-row-Social Feed-images started )=================== -->
+                <div class="d-flex flex-wrap justify-around Social-Feed-images">
+                    <img  width="250px" src="./assets/S-5-social_feed-imd1.webp" alt="social_feed-imd1">
+                    <img width="250px"  src="./assets/S-5-social_feed-imd2.webp" alt="social_feed-imd2">
+                    <img width="250px"  src="./assets/S-5-social_feed-imd3.webp" alt="social_feed-imd3">
+                    <img width="250px"  src="./assets/S-5-social_feed-imd4.webp" alt="social_feed-imd4">
+                    <img width="250px"  src="./assets/S-5-social_feed-imd5.webp" alt="social_feed-imd5">
+                </div>
+                        <!-- ===================(section-5-row-Social Feed-images ended )=================== -->
+
+        </section>
+                <!-- ===================(section(5) ended)=================== --> 
+
+ 
+                <!-- ===================(footer started)=================== --> 
+        <footer class="s2-bg-ligth-gray">
+            
+            <div class="d-flex flex-wrap justify-evenly  footer-padding">
+                <div class="footer-SD-inner-div1">
+                    <img class="logo" src="./assets/logo.webp" alt="">
+                    <p class="footer-p1">The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.</p>
+                    <p class="footer-p2">Terms & conditions<span>Privacy policy</span></p>
+                </div>
+
+                <div class="footer-SD-inner-div2">
+                    <h1 class="footer-h1">Site Links</h1>
+                    <ul class="footer-ul">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Publications</li>
+                        <li>Get a Franchise</li>
+                        <li>Feedback</li>
+                    </ul>   
+                </div>
+
+                <div class="footer-SD-inner-div3">
+                    <h1 class="footer-h1">Contact Us</h1>
+                    <ul class="footer-ul">
+                        <li>+92 42 358 509 31 (Head Office)</li>
+                        <li>+92 42 358 509 30 (Head Office)</li>
+                        <li>+92 42 111 100 678 (Delivery)</li>
+                        <li>+92 03 111 444 610 (Delivery)</li>
+                        <li>snpfood@brain.net.pk</li>
+                        <li>23-Usman Block, New <br> GardenTown, Lahore, Pakistan</li>
+                    </ul>   
+                </div>
+
+                <div class="footer-SD-inner-div4">
+                    <h1 class="footer-h1">Follow Us</h1>
+                    <div>
+                        <i class="fa-brands fa-facebook social-icon"></i>
+                        <i class="fa-brands fa-instagram social-icon"></i>
+                        <i class="fa-brands fa-twitter social-icon"></i>
+                    </div> 
+                    <ul class="footer-ul">
+                        <li><img src="./assets/Apple store.webp" alt="Apple store"></li>
+                        <li><img src="./assets/Google Play.webp" alt="Google Play"></li>
+                    </ul>
+                </div>
+
+            </div>
+
+                                <hr>
+                <div class="text-end">
+                    <h1>Powered By:- MSK.com</h1>
+                </div>
+
+                <!-- <div class="top-arrow">
+                   <a href=""><i class="fa fa-angle-up"></i></a>
+                </div> -->
+        </footer>
+                <!-- ===================(footer ended)=================== -->
+
+        
+        
         
 
-    </section>
-    <footer></footer>
+    
 
-    <script src="https://kit.fontawesome.com/9aded8b196.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script src="https://kit.fontawesome.com/9aded8b196.js" crossorigin="anonymous"></script>
 </body>
-
 </html>

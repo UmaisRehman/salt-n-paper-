@@ -15,7 +15,9 @@ html{
 /* flex classes started */
 
 .d-flex{
-    display: flex;  
+    display: flex;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
 }
 .flex-wrap{
     flex-wrap: wrap;
@@ -26,6 +28,7 @@ html{
 .justify-evenly{
     justify-content: space-evenly;
 }
+
 .justify-around{
     justify-content: space-around;
 }
@@ -35,11 +38,22 @@ html{
 .item-center{
     align-items: center;
 }
+
+.align-end{
+    align-items: end;
+}
+.align-start{
+    
+    align-items: start;
+}
 .flex-column{
     flex-direction: column;
 }
 .gap-5{
     gap: 25px;
+}
+.gap-4{
+    gap: 20px;
 }
 
 /* flex classes ended */
@@ -75,10 +89,14 @@ html{
 .mt5{
     margin-top: 25px;
 }
-
+.mt6{
+    margin-top: 50px;
+}
 .mx1{
     margin: 0px 5px;
 }
+
+
 
 .my-{
     margin: 5px 0px;
@@ -118,6 +136,11 @@ html{
     padding-top: 25px;
 }
 
+.pt6{
+    padding-top: 80px;
+}
+
+
 .px1{
     padding: 0px 5px;
 }
@@ -126,12 +149,24 @@ html{
     padding: 5px 0px;
 }
 
+.pbottom-s1{
+    padding-bottom: 120px;
+}
+.pbottom-s2{
+    padding-bottom: 60px;
+}
+
+.pb{
+    padding-bottom: 20px;
+}
 /* padding classes ended */
 
 
 .text-center{
     text-align: center;
 }
+
+
 
 .border-sm{
     border: 1px solid black;
@@ -140,6 +175,38 @@ html{
 .bg-dark{
     background-color: #000000;
 }
+
+
+
 .text-white{
     color: #ffffff;
+}
+.text-black{
+    color: #000000;
+}
+
+.bg-white{
+    background-color:#ffffff;
+}
+
+.tw{
+    color: #ed1c24;
+}
+
+.mt{
+    margin-top: 30px;
+}
+.mtop{
+    margin-top: 25px;
+}
+.s2-bg-ligth-gray{
+    background-color: #0f0f0f;
+    color:#ffffff;
+}
+.s2-BR{
+    border-radius: 10px;
+}
+
+.mb{
+    margin-bottom: 10px;
 }
